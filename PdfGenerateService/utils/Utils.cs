@@ -44,7 +44,8 @@ namespace PdfGenerateService.utils
          */
         public static string toDataKey(string pdfKey)
         {
-            string result = pdfKey.Replace(" ", "_")
+            string result = pdfKey.Replace(" ", "_");
+
 
             return result;
         }
